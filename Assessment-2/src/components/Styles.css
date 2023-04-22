@@ -1,0 +1,361 @@
+#mainpagediv {
+    width: 100%;
+    height: 650px;
+    background-image: url("./Images/headman.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#firstdiv {
+    box-sizing: border-box;
+    width: 100%;
+    height: 850px;
+    background-image: url("./Images/fingure.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#navdiv {
+    display: flex;
+    padding-top: 20px;
+}
+
+.bardiv {
+    color: white;
+    display: flex;
+    margin-left: 400px;
+}
+
+.logoimg {
+    width: 150px;
+    margin-left: 150px;
+}
+
+.searchimg {
+    width: 20px;
+    height: 20px;
+    padding-top: 15px;
+}
+
+.bsn {
+    padding-right: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.bsnex {
+    text-decoration: underline;
+    text-decoration-color: rgb(236, 61, 236)
+}
+
+.sub {
+    color: rgb(121, 114, 114);
+}
+
+.sub1 {
+    color: red;
+}
+
+.business {
+    border: 2px solid aqua;
+    color: white;
+    padding: 5px;
+    width: 120px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 170px;
+}
+
+.namecomp{
+    margin-left: 140px;
+    background: linear-gradient(to right, #fd1b1b,
+    #9e0dd7 10%, #d40606 40%);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+}
+
+.creatediv{
+    margin-left: 140px;
+    border-left: 3px solid white;
+    padding-left: 15px;
+}
+
+.createdivsub{
+    color: aqua;
+}
+
+.rptechnovelty{
+    margin-left: 170px;
+    background: linear-gradient(to right, #fd1b1b,
+    #9e0dd7 10%, #d40606 15%);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+}
+
+.readmore{
+    margin-left: 170px;
+}
+
+/* section  */
+
+#mainsecdiv{
+width: 100%;
+height: 1200px;
+}
+
+.secdiv{
+    width: 80%;
+    height: 400px;
+    margin-left: 10%;
+    margin-top: 100px;
+    display: flex;
+    box-sizing: border-box;
+}
+.firstsecdiv, .secondsecdiv{
+    width: 50%;
+    height: 400px;
+    color: white;
+}
+
+
+.W{
+    font-size: 50px;
+}
+
+.weare{
+font-size: 30px;
+border-left: 3px solid white;
+padding-left: 20px;
+background: linear-gradient(to right, #fd1b1b,
+#9e0dd7 50%, #ef1e22 80%);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+/* border-image: ; */
+}
+
+.technov{
+    width: 150px;
+    margin-top: 30px;
+}
+
+.technov2{
+width: 380px;
+margin-left: 100px;
+}
+
+.secdiv2{
+    /* border: 2px solid red; */
+    width: 80%;
+    margin-left: 10%;
+    height: 500px;
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
+
+.alsoread{
+    color: white;
+    margin-top: 150px;
+    margin-left: 250px;
+}
+
+.indexdiv1{
+    border: 2px solid ;
+    width: 50%;
+    height: 450px;
+    margin-top: 50px;
+    background-image: url("./Images/technew1.jpg");
+    background-size: cover;
+    border-image: linear-gradient(to top, rgb(253, 25, 219), black 40%) 1;
+}
+
+.indexdiv2{
+    /* border: 2px solid yellowgreen; */
+    width: 50%;
+    height: 500px;
+    background-image: url("./Images/earth.jpg");
+    background-size: cover;
+}
+
+.uppercard{
+    color: white;
+    width: 450px;
+    height: 400px;
+    background-color: black;
+    position: absolute;
+    z-index: 2;
+    top:1440px;
+    left: 550px;
+    border: 2px solid rgb(130, 10, 181);
+}
+
+.uppercardtext{
+    text-align: end;
+    font-size: 14px;
+    padding-right: 30px;
+}
+
+.uppercardhead{
+    text-align: end;
+    margin-right: 32px;
+    border-right: 3px solid red;
+    padding-right: 10px;
+    border-image: linear-gradient(to top, rgb(252, 12, 216), rgb(198, 8, 245) 80%) 1;
+}
+
+.sometext{
+    color: white;
+    display: flex;
+    margin-left: 50px;
+}
+
+.sometext1{
+    
+}
+.sometext2{
+margin-left: 165px;
+background: linear-gradient(to right, #fd1b1b,
+#9e0dd7 80%);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+}
+
+.indexdiv1sub{
+    color: rgb(113, 230, 95);
+    border-right: 3px solid white;
+    width: 50%;
+    margin-top: 270px;
+    padding-right: 10px;
+}
+
+.indexdiv1subhead{
+    text-align: end;
+}
+
+.indexdiv1subtext{
+font-size: 9px;
+text-align: end;
+}
+
+.onehash{
+    color: white;
+    margin-left: 340px;
+    font-size: 40px;
+}
+
+.makecircle,.makecircle1 {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-left: 5px;
+}
+.makecircle1{
+    background-color: rgb(241, 61, 184);
+}
+
+.maincircle{
+    display: flex;
+    margin-top: 30px;
+ margin-left: 600px;
+}
+
+/* footer */
+
+#mainfooterdiv {
+    display: flex;
+    box-sizing: border-box;
+    color: white;
+    margin-top: 40px;
+}
+
+.logoimgfooter {
+    width: 120px;
+    height: 60px;
+    margin-left: 150px;
+}
+
+.footpic {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 5px;
+
+}
+
+#footpicdiv {
+    display: flex;
+    padding-top: 10px;
+}
+
+.letsgate {
+    margin-left: 30px;
+    margin-right: 150px;
+}
+
+.follow {
+    margin-right: 15px;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.emailenter {
+    border: 1px solid purple;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    background: linear-gradient(to right, purple, black);
+    font-family: sans-serif;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+
+.footmaincard{
+    width: 60%;
+    margin-left: 20%;
+    height: 200px;
+    display: flex;
+    color: white;
+    margin-top: 50px;
+}
+
+.footmaincard1,.footmaincard2,.footmaincard3,.footmaincard4{
+    width: 25%;
+    height: 200px;
+}
+
+.colorchange{
+    background: linear-gradient(to right, #fd1b1b,
+    #9e0dd7 20%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; 
+}
+
+.last{
+    color: white;
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.techhide{
+    width: 600px;
+    color: rgb(219, 210, 210);
+    font-size: 70px;
+    margin-left: 22%;
+    margin-top: 20px;
+    opacity: 0.1;
+}
+
+.imagidive{
+    width: 600px;
+    color: rgb(164, 161, 161);
+    font-size: 70px;
+    margin-top: 50px;
+    opacity: 0.1;
+}
