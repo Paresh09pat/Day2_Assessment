@@ -16,7 +16,7 @@ function Footer() {
                 </div>
 
                 <div className='emailenter'>
-                    Enter Your Email to Subscribe
+                    Enter Your Email to Subscribe <span className='arrow'> &#x2192; </span>
                 </div>
             </div>
 
@@ -53,7 +53,7 @@ function Footer() {
                 </div>
             </div>
 
-            <div className='last'>@ 2019-2024 RedPhantom Industries Private Limited . All Rights Reserved.</div>
+            <div className='last'>@ 2019-2024 RedPhantom Industries Private Limited . All Rights Reserved. </div>
 
         </>
     )

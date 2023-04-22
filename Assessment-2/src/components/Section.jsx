@@ -69,11 +69,13 @@ function Section() {
                     and community organizations.
                 </p>
                 <div className='sometext'>
-                    <p className='sometext1'>READ MORE </p>
+                    <p className='sometext1'>READ MORE</p>
                     <p className='sometext2'> #rptechnovelty</p>
                 </div>
             </div>
 
+<div className='circlewitharrow'><span className='AC'>&#x2190;</span></div>
+<div className='circlewitharrow1'> <span className='AC1'>&#x2192; </span></div>
 
 
         </div>

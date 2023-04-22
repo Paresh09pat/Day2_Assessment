@@ -33,7 +33,7 @@ function Navbar() {
 
             <h2 className='rptechnovelty'>#rptechnovelty</h2>
 
-            <p className='readmore'> READ MORE</p>
+            <p className='readmore'> READ MORE  <span className='arrow'> &#x2192; </span>  <span className='arrowcircle'>00</span></p>
 
 <div className='techhide'> TECHNOLOGY</div>
 
