@@ -501,7 +501,6 @@
         margin: 0px;
         margin-left: 5%;
         flex-direction: column;
-        border: 1px solid red;
     }
 
     .exte{
@@ -679,27 +678,28 @@
 
     .footmaincard {
         width: 100%;
-        margin-left: 0%;
+        margin-left: 20px;
         height: 200px;
         display: flex;
         flex-wrap: wrap;
         color: white;
-        margin-top: 50px;
+        margin-top: 20px;
+font-size: 10px;
     }
 
     .footmaincard1,
     .footmaincard2,
     .footmaincard3,
     .footmaincard4 {
-        width: 40%;
+        width: 25%;
         height: 200px;
-        margin-left: 5%;
+    
     }
 
     .last {
         color: white;
         padding: 20px;
-        margin-top: 200px;
+        margin-top: -50px;
         text-align: center;
     }
 
