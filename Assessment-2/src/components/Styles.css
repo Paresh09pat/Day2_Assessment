@@ -133,7 +133,6 @@
             #9e0dd7 50%, #ef1e22 80%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    /* border-image: ; */
 }
 
 .technov {
@@ -147,7 +146,6 @@
 }
 
 .secdiv2 {
-    /* border: 2px solid red; */
     width: 80%;
     margin-left: 10%;
     height: 500px;
@@ -173,7 +171,6 @@
 }
 
 .indexdiv2 {
-    /* border: 2px solid yellowgreen; */
     width: 50%;
     height: 500px;
     background-image: url("./Images/earth.jpg");
@@ -349,7 +346,7 @@
 }
 
 .techhide {
-    width: 600px;
+    width: 50%;
     color: rgb(219, 210, 210);
     font-size: 70px;
     margin-left: 22%;
@@ -405,7 +402,7 @@
 
 .circlewitharrow1 {
     margin-left: 975px;
-margin-top: -40px;
+    margin-top: -40px;
 }
 
 .AC,
@@ -415,3 +412,349 @@ margin-top: -40px;
     position: absolute;
 }
 
+.reduce {}
+
+
+@media screen and (max-width: 390px) {
+    body {
+        background-color: lightgreen;
+    }
+
+    #mainpagediv {
+        height: 450px;
+    }
+
+    #navdiv {
+        display: inline;
+        padding-top: 20px;
+    }
+
+    .bardiv {
+        color: white;
+        display: flex;
+        margin-left: 5px;
+    }
+
+    .logoimg {
+        width: 80px;
+        margin: 0;
+        padding: 5px;
+    }
+
+    .bsn {
+        padding-right: 10px;
+        font-weight: lighter;
+        font-size: 15px;
+    }
+
+    .reduce {
+        font-size: 10px;
+    }
+
+    .business {
+        padding: 5px;
+        width: 100px;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+    .namecomp {
+        margin-left: 20px;
+        font-size: 20px;
+    }
+
+    .creatediv {
+        margin-left: 20px;
+        border-left: 3px solid white;
+        padding-left: 15px;
+    }
+
+    .createdivsub {
+        color: aqua;
+        font-size: 15px;
+    }
+
+    .rptechnovelty {
+        margin-left: 20px;
+        font-size: 20px;
+    }
+
+    .readmore {
+        margin-left: 20px;
+    }
+
+    /* section */
+
+    .techhide {
+   display: none;
+    }
+
+    #mainsecdiv {
+        width: 100%;
+        height: 1800px;
+    }
+
+    .secdiv {
+        width: 95%;
+        height: 340px;
+        margin-top: 0px;
+        margin: 0px;
+        margin-left: 5%;
+        flex-direction: column;
+        border: 1px solid red;
+    }
+
+    .exte{
+        font-size: 14px;
+    }
+
+    .firstsecdiv,
+    .secondsecdiv {
+        width: 90%;
+        height: 400px;
+        color: white;
+    }
+
+    .W {
+        font-size: 25px;
+    }
+
+    .weare {
+        font-size: 17px;
+        padding-left: 5px;
+    }
+
+    .technov {
+        width: 120px;
+        margin-top: 10px;
+    }
+
+    .technov2 {
+        width: 320px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .imagidive {
+      display: none;
+    }
+
+    .secdiv2 {
+        width: 100%;
+        margin-left: 0%;
+        height: 500px;
+        display: block;
+        position: relative;
+        z-index: 1;
+    }
+
+    .alsoread {
+        margin-top: 400px;
+        margin-left: 20px;
+    }
+
+    .indexdiv1 {
+        border: 3px solid;
+        width: 98%;
+        height: 300px;
+        margin-top: 20px;
+    }
+
+    .indexdiv1sub {
+        color: darkblue;
+        border-right: 3px solid white;
+        width: 70%;
+        margin-top: 120px;
+        padding-right: 10px;
+    }
+
+    .onehash {
+        color: white;
+        margin-left: 340px;
+        font-size: 40px;
+    }
+
+    .indexdiv2 {
+        width: 100%;
+        height: 300px;
+        margin-top: 150px;
+        background-image: url("./Images/earth.jpg");
+    }
+
+    .uppercard {
+        color: white;
+        width: 320px;
+        height: 280px;
+        background-color: black;
+        position: absolute;
+        z-index: 2;
+        top: 1530px;
+        left: 30px;
+    }
+
+    .uppercardtext {
+        text-align: end;
+        font-size: 10px;
+        padding-right: 15px;
+    }
+
+    .uppercardhead {
+        text-align: end;
+        margin-right: 15px;
+        padding-right: 10px;
+        font-size: 25px;
+        background: linear-gradient(to right, #fd1b1b,
+                #9e0dd7 80%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+
+    .sometext {
+        color: white;
+        display: flex;
+        margin-left: 50px;
+    }
+
+    .sometext1 {
+        font-size: 15px;
+    }
+
+    .sometext2 {
+        margin-left: 65px;
+    }
+
+    .onehash {
+        color:white;
+        margin-left: 300px;
+        margin-top: -40px;
+        font-size: 40px;
+    }
+
+    .maincircle {
+        display: flex;
+        margin-top: 300px;
+        margin-left: 120px;
+    }
+
+    .circlewitharrow,
+    .circlewitharrow1 {
+        display: none;
+    }
+
+    /* footer */
+
+    #mainfooterdiv {
+        display: block;
+        margin-top: -100px;
+    }
+
+    .logoimgfooter {
+        width: 120px;
+        height: 50px;
+        margin-left: 100px;
+    }
+
+    .letsgate {
+        margin-left: 120px;
+    }
+
+    #footpicdiv {
+     margin-left: 10px;
+    }
+
+    .footpic {
+        width: 35px;
+        height: 30px;
+        margin-bottom: 20px;
+        margin-right: 15px;
+    }
+
+    .emailenter {
+        width: 300px;
+        height: 30px;
+        margin-left: 30px;
+        padding-left: 10px;
+    }
+
+
+    .footmaincard {
+        width: 100%;
+        margin-left: 0%;
+        height: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        color: white;
+        margin-top: 50px;
+    }
+
+    .footmaincard1,
+    .footmaincard2,
+    .footmaincard3,
+    .footmaincard4 {
+        width: 40%;
+        height: 200px;
+        margin-left: 5%;
+    }
+
+    .last {
+        color: white;
+        padding: 20px;
+        margin-top: 200px;
+        text-align: center;
+    }
+
+    .techhide {
+        width: 600px;
+        color: rgb(219, 210, 210);
+        font-size: 70px;
+        margin-left: 22%;
+        margin-top: 20px;
+        opacity: 0.1;
+    }
+
+    .imagidive {
+        width: 600px;
+        color: rgb(164, 161, 161);
+        font-size: 70px;
+        margin-top: 50px;
+        opacity: 0.1;
+    }
+
+    .arrow {
+        font-size: 30px;
+        margin-top: -10px;
+        margin-left: 10px;
+        position: relative;
+        z-index: 2;
+    }
+
+    .arrowcircle {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: 3px solid rgb(173, 7, 109);
+        color: black;
+        padding: 7px;
+        position: relative;
+        margin-left: -30px;
+        z-index: 1;
+    }
+
+    .circlewitharrow,
+    .circlewitharrow1 {
+        color: white;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: 1px solid white;
+        background-color: #ad0672;
+        padding: 10px;
+        position: relative;
+        z-index: 3;
+    }
+
+
+
+
+
+}

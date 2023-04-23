@@ -22,7 +22,7 @@ function Navbar() {
             <h1 className='namecomp'>RedPhantom Tech Novelty</h1>
             <div className='creatediv'>
                 <h2 className='createdivsub'> Creating Innovative Future <br /> With Trending Technology</h2>
-                <p>
+                <p className='reduce'>
                     For more than 40 years, RP Transportation provided safe,reliable <br />
                     reliable, affordable transportation services to cities, countries,<br />
                     municipalies, and other juridictiona entities, as well<br />
@@ -35,7 +35,7 @@ function Navbar() {
 
             <p className='readmore'> READ MORE  <span className='arrow'> &#x2192; </span>  <span className='arrowcircle'>00</span></p>
 
-<div className='techhide'> TECHNOLOGY</div>
+            <div className='techhide'> TECHNOLOGY</div>
 
         </div>
     )

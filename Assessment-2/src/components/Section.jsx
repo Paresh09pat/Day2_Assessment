@@ -9,7 +9,7 @@ function Section() {
             <div className='secdiv'>
                 <div className='firstsecdiv'>
                     <p className='weare'><span className='W'>W</span>e Are Thinking Of A New Approach  <br /> To Your Current Methods</p>
-                    <p>
+                    <p className='exte'>
                         With RPTN's customer-centric digital experiences, businesses, co-workers, and the community may all climb to their respective positions. We are focused on cutting-edge new technologies such as nanotechnology, 5G, blockchain, cybersecurity, artificial intelligence, and others in order to enable digital transformation across end-to-end customer requirements. RPTN is a fast growing startup brand, want to be ranked among the top IT service providers in the globe. In order to improve the overall "Human Being"
                     </p>
 
@@ -19,8 +19,7 @@ function Section() {
                 </div>
                 <div className='secondsecdiv'>
                     <img className='technov2' src={cirimage} alt='' />
-                </div>
-                
+                </div>   
             </div>
 
             <h1 className='alsoread'>Also Read</h1>
